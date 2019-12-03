@@ -1,0 +1,45 @@
+{
+  "name": "kadal",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=development nodemon ./bin/wwww"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.287.0",
+    "body-parser": "~1.17.1",
+    "busboy": "^0.2.14",
+    "busboy-body-parser": "^0.3.2",
+    "compile-run": "^1.2.2",
+    "compression": "^1.7.3",
+    "config": "^1.28.1",
+    "connect-busboy": "0.0.2",
+    "cookie-parser": "~1.4.3",
+    "cookies": "^0.7.1",
+    "cors": "^2.8.4",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-rate-limit": "^3.3.2",
+    "ezcompilex": "^0.7.4",
+    "feed-to-json": "^1.0.3",
+    "helmet": "^3.13.0",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.1.0",
+    "mongodb": "^3.0.0-rc0",
+    "mongoose": "^5.2.4",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-hidden": "^1.5.0",
+    "mongoose-unique-validator": "^2.0.1",
+    "morgan": "~1.8.1",
+    "node-uuid": "^1.4.8",
+    "pwd": "^1.1.0",
+    "regex-email": "^1.0.2",
+    "rotating-file-stream": "^1.3.7",
+    "s": "^0.1.1",
+    "s-salt-pepper": "^2.1.0",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.7.0"
+  }
+}
