@@ -81,7 +81,7 @@
   "description": "Wrapper around libsass",
   "devDependencies": {
     "coveralls": "^2.11.8",
-    "eslint": "^3.4.0",
+    "eslint": "^6.7.2",
     "fs-extra": "^0.30.0",
     "istanbul": "^0.4.2",
     "mocha": "^3.1.2",
